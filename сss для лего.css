@@ -1,0 +1,204 @@
+*{
+    box-sizing: border-box;
+}
+@font-face{
+    font-family:Caveat-VariableFont_wght;
+    src: url("Caveat-VariableFont_wght.ttf");
+}
+body{
+    font-family:Caveat-VariableFont_wght ;
+    background: rgb(29,94,253);
+background: linear-gradient(90deg, rgba(0, 72, 255, 0.596) 25%, rgba(69,252,78,0.569) 50%, rgba(249,255,0,0.569) 100%);
+}
+.our_team{
+    font-family:Caveat-VariableFont_wght;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.our_team li{
+    
+    width: 350px;
+    border: 2px solid forestgreen;
+}
+
+.our_team img{
+   
+    width: 350px;
+
+}
+
+p{
+    font-size: 36px;
+}
+
+.Nick:hover::after{
+    content: "Коля( Который почти НИЧЕГО не делает(Это правда,не ну Коля реально))";
+    position: absolute;
+    display: block;
+    top: 0px;
+    color: rgb(255, 255, 255);
+    width: 350px;
+    height: 272px;
+    background-color: rgba(0, 0, 0, 0.842);
+    font-size: 20px;
+    padding: 70px;
+    box-sizing: border-box;
+    
+    
+}
+
+.Nick{
+    position: relative;
+    
+}
+
+.Maksim:hover::after{
+    content: "Максим Ковтуняк(просто Максим ничего особенного)";
+    position: absolute;
+    display: block;
+    top: 0px;
+    color: rgb(255, 255, 255);
+    width: 350px;
+    height: 272px;
+    background-color: rgba(0, 0, 0, 0.842);
+    font-size: 20px;
+    padding: 80px;
+    box-sizing: border-box;
+    
+    
+}
+
+.Maksim{
+    position: relative;
+    
+}
+
+.Andrey:hover::after{
+    content: "Андрей Рубцов(тут написано что-то умное)";
+    position: absolute;
+    display: block;
+    top: 0px;
+    color: rgb(255, 255, 255);
+    width: 350px;
+    height: 272px;
+    background-color: rgba(0, 0, 0, 0.842);
+    font-size: 20px;
+    padding: 70px;
+    box-sizing: border-box;
+    
+    
+}
+
+.Andrey{
+    position: relative;
+    
+}
+
+.Dasha:hover::after{
+    content: "Даша Суровец (моя напарница и лп)";
+    position: absolute;
+    display: block;
+    top: 0px;
+    color: rgb(255, 255, 255);
+    width: 350px;
+    height: 272px;
+    background-color: rgba(0, 0, 0, 0.842);
+    font-size: 20px;
+    padding: 70px;
+    box-sizing: border-box;
+    
+    
+}
+
+.Dasha{
+    position: relative;
+    
+}
+
+
+.Liza:hover::after{
+    content: "Лиза Бельская(это я(создатель данного сайта))";
+    position: absolute;
+    display: block;
+    top: 0px;
+    color: rgb(255, 255, 255);
+    width: 350px;
+    height: 272px;
+    background-color: rgba(0, 0, 0, 0.842);
+    font-size: 20px;
+    padding: 70px;
+    box-sizing: border-box;
+    
+    
+}
+
+.Liza{
+    position: relative;
+    
+}
+
+.Ivan:hover::after{
+    content: "Ваня Гусев(фанат Гарри Поттера)";
+    position: absolute;
+    display: block;
+    top: 0px;
+    color: rgb(255, 255, 255);
+    width: 350px;
+    height: 272px;
+    background-color: rgba(0, 0, 0, 0.842);
+    font-size: 20px;
+    padding: 70px;
+    box-sizing: border-box;
+    
+    
+}
+
+.Ivan{
+    position: relative;
+    
+}
+
+.Kirilitca:hover::after{
+    content: "Кирилл Попов (Шутник. Занимается боями роботов)";
+    position: absolute;
+    display: block;
+    top: 0px;
+    color: rgb(255, 255, 255);
+    width: 350px;
+    height: 272px;
+    background-color: rgba(0, 0, 0, 0.842);
+    font-size: 20px;
+    padding: 70px;
+    box-sizing: border-box;
+    
+    
+}
+
+.Kirilitca{
+    position: relative;
+}
+
+.nagrady{
+    width: 400px;
+     
+    
+}
+
+.nadradydiv{
+    display: flex;
+    flex-flow:row wrap ;
+    justify-content: space-around;
+    width: 1200px;
+    margin: 0 auto;
+    
+}
+
+.slova_pered_nadrady_div{
+    text-align: center;
+}
+
+.verx{
+    text-align: center;
+}

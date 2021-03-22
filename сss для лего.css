@@ -17,6 +17,22 @@ background: linear-gradient(90deg, rgba(0, 72, 255, 0.596) 25%, rgba(69,252,78,0
     justify-content: space-around;
 }
 
+.a {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    left:650px;
+    top:300px;
+}
+
+.aa {
+    position: absolute;
+    right:650px;
+    width: 70px;
+    height: 70px;
+    top:300px;
+}
+
 .our_team li{
     
     width: 350px;
@@ -34,35 +50,39 @@ p{
 }
 
 .Nick:hover::after{
-    content: "Коля( Который почти НИЧЕГО не делает(Это правда,не ну Коля реально))";
+    
     position: absolute;
     display: block;
     top: 0px;
-    color: rgb(255, 255, 255);
+    
     width: 350px;
     height: 272px;
-    background-color: rgba(0, 0, 0, 0.842);
+   
     font-size: 20px;
     padding: 70px;
     box-sizing: border-box;
     
-    
 }
 
 .Nick{
-    position: relative;
-    
+    position:relative;
+    width: 350px;
+    margin: 0 auto;
+}
+
+.Nick img{
+    width: 350px;
+    height: 272px;
+
 }
 
 .Maksim:hover::after{
-    content: "Максим Ковтуняк(просто Максим ничего особенного)";
+    
     position: absolute;
     display: block;
     top: 0px;
-    color: rgb(255, 255, 255);
     width: 350px;
     height: 272px;
-    background-color: rgba(0, 0, 0, 0.842);
     font-size: 20px;
     padding: 80px;
     box-sizing: border-box;
@@ -76,14 +96,14 @@ p{
 }
 
 .Andrey:hover::after{
-    content: "Андрей Рубцов(тут написано что-то умное)";
+    
     position: absolute;
     display: block;
     top: 0px;
-    color: rgb(255, 255, 255);
+   
     width: 350px;
     height: 272px;
-    background-color: rgba(0, 0, 0, 0.842);
+   
     font-size: 20px;
     padding: 70px;
     box-sizing: border-box;
@@ -97,14 +117,14 @@ p{
 }
 
 .Dasha:hover::after{
-    content: "Даша Суровец (моя напарница и лп)";
+    
     position: absolute;
     display: block;
     top: 0px;
-    color: rgb(255, 255, 255);
+    
     width: 350px;
     height: 272px;
-    background-color: rgba(0, 0, 0, 0.842);
+    
     font-size: 20px;
     padding: 70px;
     box-sizing: border-box;
@@ -119,14 +139,14 @@ p{
 
 
 .Liza:hover::after{
-    content: "Лиза Бельская(это я(создатель данного сайта))";
+    
     position: absolute;
     display: block;
     top: 0px;
-    color: rgb(255, 255, 255);
+    
     width: 350px;
     height: 272px;
-    background-color: rgba(0, 0, 0, 0.842);
+   
     font-size: 20px;
     padding: 70px;
     box-sizing: border-box;
@@ -140,14 +160,14 @@ p{
 }
 
 .Ivan:hover::after{
-    content: "Ваня Гусев(фанат Гарри Поттера)";
+    
     position: absolute;
     display: block;
     top: 0px;
-    color: rgb(255, 255, 255);
+    
     width: 350px;
     height: 272px;
-    background-color: rgba(0, 0, 0, 0.842);
+   
     font-size: 20px;
     padding: 70px;
     box-sizing: border-box;
@@ -161,11 +181,11 @@ p{
 }
 
 .Kirilitca:hover::after{
-    content: "Кирилл Попов (Шутник. Занимается боями роботов)";
+    
     position: absolute;
     display: block;
     top: 0px;
-    color: rgb(255, 255, 255);
+    
     width: 350px;
     height: 272px;
     background-color: rgba(0, 0, 0, 0.842);
@@ -181,9 +201,8 @@ p{
 }
 
 .nagrady{
-    width: 400px;
-     
     
+   width: 400px;
 }
 
 .nadradydiv{
@@ -202,3 +221,20 @@ p{
 .verx{
     text-align: center;
 }
+
+.nydjnytext{
+    background-color: rgba(0, 0, 0, 0.678);
+    color: rgb(255, 255, 255);
+    width: 350px;
+    height: 272px;
+   font-size: 25px; 
+   position: absolute;
+   top: 230px;
+   left: 777PX;
+   display: none;
+}
+
+.Nick:hover+.nydjnytext{
+    display:block ;
+}
+
